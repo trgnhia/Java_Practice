@@ -1,0 +1,40 @@
+{
+  "ClassSv{id='234', name='It2', numberOfStudents=14}" : [ {
+    "id" : "st3",
+    "name" : "stu3",
+    "birthDate" : [ 2004, 4, 19 ],
+    "age" : 21,
+    "gender" : "nam",
+    "height" : 1.56,
+    "weight" : 67.0,
+    "classId" : "234"
+  }, {
+    "id" : "st4",
+    "name" : "stu4",
+    "birthDate" : [ 2007, 7, 20 ],
+    "age" : 18,
+    "gender" : "nam",
+    "height" : 1.78,
+    "weight" : 56.0,
+    "classId" : "234"
+  } ],
+  "ClassSv{id='123', name='It1', numberOfStudents=36}" : [ {
+    "id" : "st2",
+    "name" : "stu2",
+    "birthDate" : [ 2022, 11, 22 ],
+    "age" : 3,
+    "gender" : "nu",
+    "height" : 1.45,
+    "weight" : 45.0,
+    "classId" : "123"
+  }, {
+    "id" : "st1",
+    "name" : "stu1",
+    "birthDate" : [ 2002, 2, 22 ],
+    "age" : 23,
+    "gender" : "nam",
+    "height" : 1.89,
+    "weight" : 77.0,
+    "classId" : "123"
+  } ]
+}
