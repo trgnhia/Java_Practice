@@ -1,5 +1,4 @@
 package com;
-
 import com.qlhs.controller.ClassSvController;
 import com.qlhs.controller.StudentController;
 import com.qlhs.mapper.ClassSvMapper;
@@ -16,7 +15,6 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        //
         ClassSvRepo classSvRepo = new ClassSvRepo();
         ClassSvMapper classSvMapper = new ClassSvMapper();
         ClassSvService classSvService = new ClassSvService(classSvRepo);
@@ -26,8 +24,6 @@ public class Main {
         StudentMapper studentMapper = new StudentMapper();
         StudentService studentService = new StudentService(studentRepo, classSvRepo);
         StudentController studentController = new StudentController(studentService, studentMapper, sc);
-
-
         while (true) {
             System.out.println("*-------Hệ thống quản lý học sinh/ sinh viên*---------");
             System.out.println("1.Nhập thông tin lớp học ");

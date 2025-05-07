@@ -10,9 +10,6 @@ public class StudentDTO {
     private String height;
     private String weight;
     private String classId;
-
-    public StudentDTO() {}
-
     public StudentDTO(LocalDate birthDate, String classId, String gender, String height, String id, String name, String weight) {
         this.birthDate = birthDate;
         this.classId = classId;
@@ -70,11 +67,9 @@ public class StudentDTO {
     public void setName(String name) {
         this.name = name;
     }
-
     public String getWeight() {
         return weight;
     }
-
     public void setWeight(String weight) {
         this.weight = weight;
     }

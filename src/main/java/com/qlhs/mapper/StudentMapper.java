@@ -10,13 +10,13 @@ public class StudentMapper {
         student.setId(studentDTO.getId());
         student.setBirthDate(studentDTO.getBirthDate());
         student.setGender(studentDTO.getGender());
-        try{
-            student.setHeight(Double.parseDouble(studentDTO.getHeight().replace(",",".")));
+        try {
+            student.setHeight(Double.parseDouble(studentDTO.getHeight().replace(",", ".")));
         } catch (NumberFormatException e) {
             System.out.println("Chiều cao là số thực!");
         }
-        try{
-            student.setWeight(Double.parseDouble(studentDTO.getWeight().replace(",",".")));
+        try {
+            student.setWeight(Double.parseDouble(studentDTO.getWeight().replace(",", ".")));
         } catch (NumberFormatException e) {
             System.out.println("Cân nặng là số thực!");
         }

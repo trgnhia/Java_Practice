@@ -35,6 +35,7 @@ public class ClassSv implements java.io.Serializable {
         this.name = name;
         this.numberOfStudents = numberOfStudents;
     }
+
     public ClassSv() {
 
     }

@@ -13,9 +13,11 @@ public class Student implements Serializable {
     private Double height;
     private Double weight;
     private String classId;
-    public Student() {}
 
-    public Student( LocalDate birthDate, String classId, String gender, Double height, String id, String name, Double weight) {
+    public Student() {
+    }
+
+    public Student(LocalDate birthDate, String classId, String gender, Double height, String id, String name, Double weight) {
         this.birthDate = birthDate;
         this.classId = classId;
         this.gender = gender;
@@ -24,7 +26,6 @@ public class Student implements Serializable {
         this.name = name;
         this.weight = weight;
     }
-
 
     public int getAge() {
         if (birthDate == null) {
